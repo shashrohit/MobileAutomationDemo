@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Test">
+        <packages>
+<!--            <package name="com.shashank.appium.apps.apidemo" />-->
+<!--            <package name="com.shashank.appium.apps.generalstore" />-->
+        </packages>
+        <classes>
+            <class name="com.shashank.appium.apps.generalstore.AddToCartTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
